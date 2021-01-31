@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cprdevsites18/public_html/checkgit/
+    - /bin/cp * $DEPLOYPATH
